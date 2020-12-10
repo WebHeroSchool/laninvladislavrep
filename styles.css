@@ -1,7 +1,3 @@
-header {
-  display: flex;
-  justify-content: space-between;
-  }
 .main-content__title {
   font-family: Roboto;
   color: pink;
@@ -10,11 +6,36 @@ header {
   margin: auto;
   width: 80%;
   border: dashed 1px red;
- }
-.logo {
-  padding: 40px 0;
 }
-.menu {
+header {
+    display: flex;
+    justify-content: space-between;
+    }
+.logo {
+    position: relative;
+    padding: 40px 0;
+    padding-left: 44px;
+    font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+  }
+.logo__circle {
+    position:absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    opacity: .7;
+  }
+  .logo__circle_color_blue {
+  left: 8px;
+  top: 56%;
+  background: #C8DBFB;
+}
+  .logo__circle_color_dark_blue{
+    background: #0056EC;
+  }
+  .menu {
   display: flex;
   align-items: center;
 }
