@@ -3,18 +3,18 @@
   background: top 40% right no-repeat url(img/mainImg.svg);
 }
 .main__title {
-  margin: 20% 10% 0% 0%;
-  font: bold 66px/89px pt_serif,arial,helvetica,sans-serif;
+  margin: 20% 0% 6% 0%;
+  font: bold 71px/89px pt_serif,arial,helvetica,sans-serif;
 }
 
 .main__subtitle {
-margin:5% 0% 8% 0%;
+margin: 0% 0% 10% -1%;
 font: 22px/26px Roboto, sans-serif, arial, helvetica;
 max-width: calc(40em * 0.5);
 }
 .main__button {
-  padding: 18px 27px;
-  font: 18px/21px Roboto, sans-serif, arial, helvetica;
+  padding: 17px 34px 18px 19px;
+  font: 18px/25px Roboto, sans-serif, arial, helvetica;
   color: #fff;
   background: #0056EC;
   text-decoration: none;
@@ -48,7 +48,7 @@ max-width: calc(40em * 0.5);
     position: relative;
     padding: 1.6vw;
     padding-left: 1.9vw;
-    font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+    font: bold 25px/31px pt_serif, arial, helvetica, sans-serif;
   }
 .logo__circle {
     position:absolute;
@@ -115,31 +115,33 @@ max-width: calc(40em * 0.5);
   width: 100%;
 }
 @media (max-width:1367px){
+.wrapper {
+width: 86%;
+}
 .hamburger-menu {
     display: none;
   }
 .header {
-      margin-bottom: 6%;
+      margin-bottom: 2.2vw;
     }
 .main {
   background-size: 514px 439px;
-  width: 77%;
-  height: 53%;
+  width: 71%;
+  height: 72%;
   padding-right: 19%;
 ;
     }
 .main__subtitle {
-    margin: 8.3vw 0% 3.7vw 7.7vw;
-    font: 18px/26px Roboto, sans-serif, arial, helvetica;
+    margin: 8vw 0% 3.9vw 8.5vw;
+    font: 18px/22px Roboto, sans-serif, arial, helvetica;
   }
 .main__button {
-    margin: 7.8vw;
+    margin: 8.6vw;
     padding: 16px 25px 14px 16px;
     font: 14px/21px Roboto, sans-serif, arial, helvetica;
   }
 .logo {
-  padding: 5% 1%;
-  padding-left: 13%;
+  padding: 2.3vw 1.5vw 2vw 11vw;
 }
 #first {
   padding-left: 10%;
@@ -151,15 +153,15 @@ max-width: calc(40em * 0.5);
   left: 40%;
 }
 .menu__item {
-  margin-right: 2vw;
+  margin-right: 1.87vw;
   font: 500 14px/21px Roboto, sans-serif, arial, helvetica;
 }
 .menu__item:last-child {
-    margin-right: 50px;
+    margin-right: 9vw;
 }
 .main__title {
-    margin: 3% 42% -10% 13%;
-    font: 700 50px/66px pt_serif,arial,helvetica,sans-serif;
+    margin: 10% 30% -5.2vw 14%;
+    font: 700 54px/66px pt_serif,arial,helvetica,sans-serif;
 }
 .three__theerd {
   position:absolute;
@@ -174,10 +176,12 @@ max-width: calc(40em * 0.5);
 }
 @media (max-width:1025px){
 .wrapper{
-    margin-left: 0px;
-    margin-right: 0px;
     width: 100%;
-    height: 100%;
+    height: 90%;
+}
+.header {
+  margin-bottom: 5.8vw;
+  margin-top: -0.5vw;
 }
 .logo {
     padding: 3.7vw 0vw;
@@ -198,45 +202,42 @@ max-width: calc(40em * 0.5);
     margin-right: 3.8vw;
 }
 .main {
-  background-size: 514px 439px;
-  width: 42%;
-  margin-left: 4%;
-  height: 66%;
-  padding-right: 50%
+  width: 43%;
+  margin-left: 2%;
+  height: 65%;
+  padding-right: 51%
 }
 .main__title {
-    margin: 10% 10% 0% 0%;
+    margin: 10% 4% -1% 4%;
+    font: 700 54px/66px pt_serif,arial,helvetica,sans-serif;
 }
 .main__button {
-    padding: 11px 22px 16px 16px;
-    margin: 0;
+    padding: 12px 25px 15px 14px;
+    margin: 2vw;
 }
 .main__subtitle {
-    margin: 3.8vw 4vw 0vw 0vw;
-    margin-bottom: 4.2vw;
+    margin: 4vw 0vw 5vw 2vw;
 }
 }
 @media (max-width:768px){
 .wrapper{
-      margin-left: 5%;
-      margin-right: 5%;
-      width: 90%;
-      height: 100%;
+      width: 100%;
   }
 .logo {
   position: relative;
-  padding-top: 20%;
+  padding-top: 22%;
 }
 .logo__circle {
   width: 30px;
   height: 30px;
 }
 .logo__circle_color_blue {
- left: 2vw;
- top: 9vw;
+  left: 5.8vw;
+  top: 10.3vw;
 }
 .logo__circle_color_dark_blue {
- top: 8vw;
+ top: 8.5vw;
+ left: 4vw;
 }
 .menu {
     display: none;
@@ -248,27 +249,27 @@ max-width: calc(40em * 0.5);
     display: none;
 }
   .header {
-  margin-bottom: 0px;
+  margin-bottom: -3vw;
 }
 .main {
-  width: 90%;
-  height: 34%;
+  width: 99%;
   text-align: center;
-  padding: 72% 0 0;
-  background-size: 77vw 65vw;
+  padding: 59% 0 0;
+  background-size: 72vw 63vw;
   background-position: top center;
+  margin-left: 0px;
 }
 .main__title {
   text-align: center;
-  margin: 8vw 11vw 0vw 6vw;
-  font: 700 30px/40px pt_serif, arial, helvetica, sans-serif;
+  margin: 13vw 1vw 0vw 3vw;
+  font: 700 32px/39px pt_serif, arial, helvetica, sans-serif;
 }
 .main__subtitle {
-  margin: 9.6vw;
-  font: 500 18px/19px Roboto, sans-serif, arial, helvetica;
+  margin: 9% 11% 11% 12%;
+  font: 500 17px/19px Roboto, sans-serif, arial, helvetica;
 }
 .main__button{
-  padding: 16px 25px 16px 25px;
+  padding: 4% 6% 4% 6%;
   font: 500 14px/10px Roboto, sans-serif, arial, helvetica;
 }
 #menu__toggle {
@@ -287,7 +288,8 @@ max-width: calc(40em * 0.5);
 }
 #menu__toggle:checked ~ .menu__box {
   visibility: visible;
-  left: 0;
+  left: 0vw;
+  top: -2vw;
 }
 .menu__btn {
   display: flex;
@@ -296,10 +298,10 @@ max-width: calc(40em * 0.5);
   top: 10.9vw;
   right: 6.8vw;
   transform: translateY(-50%);
-  width: 26px;
-  height: 26px;
+  width: 24px;
+  height: 25px;
   cursor: pointer;
-  z-index: 1;
+  z-index: 1
 }
 .menu__btn > span,
 .menu__btn > span::before,
@@ -323,8 +325,8 @@ max-width: calc(40em * 0.5);
   display: block;
   position: fixed;
   visibility: hidden;
-  padding-top: 50%;
-  padding-left: 6%;
+  padding-top: 48%;
+  padding-left: 2%;
   top: 0;
   left: -100%;
   width: 100%;
