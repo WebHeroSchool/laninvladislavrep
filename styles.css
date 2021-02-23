@@ -51,8 +51,6 @@ font: 22px/26px Roboto, sans-serif, arial, helvetica;
   }
 .logo__circle {
     position:absolute;
-    left: -1%;
-    top: 50%;
     transform: translateY(-50%);
     width: 28px;
     height: 28px;
@@ -60,11 +58,13 @@ font: 22px/26px Roboto, sans-serif, arial, helvetica;
     opacity: .7;
   }
 .logo__circle_color_blue {
-  left: 2%;
-  top: 56%;
+  left: 0.3vw;
+  top: 57%;
   background: #C8DBFB;
 }
 .logo__circle_color_dark_blue{
+    left: 0vw;
+    top: 50%;
     background: #0056EC;
   }
 .menu {
@@ -124,7 +124,7 @@ width: 86%;
       margin-bottom: 2.2vw;
     }
 .main {
-  background-size: 514px 439px;
+  background-size: 49% 73%;
   width: 71%;
   height: 74%;
   padding-right: 19%;
@@ -146,10 +146,10 @@ width: 86%;
   padding-left: 10%;
 }
 .logo__circle_color_dark_blue {
-  left: 37%;
+  left: 8.5vw;
 }
 .logo__circle_color_blue {
-  left: 40%;
+  left: 9.1vw;
 }
 .menu__item {
   margin-right: 1.87vw;
@@ -189,10 +189,10 @@ width: 86%;
   padding-left: 8.2vw;
 }
 .logo__circle_color_dark_blue {
-    left: 17%;
+    left: 3.7vw;
 }
 .logo__circle_color_blue {
-    left: 20%;
+    left: 4.5vw;
 }
 .menu__item {
     margin-right: 2.6vw;
@@ -207,10 +207,11 @@ width: 86%;
     margin-right: 3.8vw;
 }
 .main {
-  width: 43%;
-  margin-left: 2%;
-  height: 68%;
-  padding-right: 51%
+   background-size: 54% 87%;
+   width: 42%;
+   margin-left: 2%;
+   height: 68%;
+   padding-right: 52%
 }
 .main__title {
     margin: 10% 4% -1% 4%;
@@ -238,10 +239,10 @@ width: 86%;
 }
 .logo__circle_color_blue {
   left: 5.8vw;
-  top: 10.3vw;
+  top: 42%;
 }
 .logo__circle_color_dark_blue {
- top: 8.5vw;
+ top: 34%;
  left: 4vw;
 }
 .menu {
